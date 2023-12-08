@@ -2,7 +2,7 @@
 
 When operating in HTTP mode (API or Web), access to `orchestrator` may be restricted via either:
 
-*  _basic authentication_
+* _basic authentication_
 
    Add the following to `orchestrator`'s configuration file:
 
@@ -15,7 +15,7 @@ When operating in HTTP mode (API or Web), access to `orchestrator` may be restri
    `Orchestrator`'s configuration file contains credentials to your MySQL servers as well as _basic authentication_
    credentials as specified above. Keep it safe (e.g. `chmod 600`).
 
-*  _basic authentication, extended_
+* _basic authentication, extended_
 
    Add the following to `orchestrator`'s configuration file:
 
@@ -27,7 +27,7 @@ When operating in HTTP mode (API or Web), access to `orchestrator` may be restri
    is allowed to view all content but unable to perform write operations through the API (such as stopping a replica,
    repointing replicas, discovering new instances etc.)
 
-*  _Headers authentication_
+* _Headers authentication_
 
    Authenticates via headers forwarded by reverse proxy (e.g. Apache2 relaying requests to orchestrator).
    Requires:
@@ -46,8 +46,8 @@ When operating in HTTP mode (API or Web), access to `orchestrator` may be restri
         RewriteRule .* - [E=RU:%1,NS]
         RequestHeader set X-Forwarded-User %{RU}e
 
-   The `proxy` authentication allows for *roles*. Some users are *Power users* and the rest are just normal users.
-   *Power users* are allowed to make changes to the topologies, whereas normal users are in read-only mode.
+   The `proxy` authentication allows for _roles_. Some users are _Power users_ and the rest are just normal users.
+   _Power users_ are allowed to make changes to the topologies, whereas normal users are in read-only mode.
    To specify the list of known DBAs, use:
 
         "PowerAuthUsers": [
