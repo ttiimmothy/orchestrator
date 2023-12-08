@@ -1,14 +1,12 @@
-![](https://github.com/openark/orchestrator/workflows/CI/badge.svg)
-![](https://github.com/openark/orchestrator/workflows/upgrade/badge.svg)
-![](https://github.com/openark/orchestrator/workflows/system%20tests/badge.svg)
+# Orchestrator
+![ci](https://github.com/openark/orchestrator/workflows/CI/badge.svg)
+![upgrade](https://github.com/openark/orchestrator/workflows/upgrade/badge.svg)
+![system tests](https://github.com/openark/orchestrator/workflows/system%20tests/badge.svg)
 [![downloads](https://img.shields.io/github/downloads/openark/orchestrator/total.svg)](https://github.com/openark/orchestrator/releases) [![release](https://img.shields.io/github/release/openark/orchestrator.svg)](https://github.com/openark/orchestrator/releases)
-
-# orchestrator [[Documentation]](https://github.com/openark/orchestrator/tree/master/docs)
-
 
 ![Orchestrator logo](https://github.com/openark/orchestrator/raw/master/docs/images/orchestrator-logo-wide.png)
 
-`orchestrator` is a MySQL high availability and replication management tool, runs as a service and provides command line access, HTTP API and Web interface. `orchestrator` supports:
+Orchestrator is a MySQL high availability and replication management tool, runs as a service and provides command line access, HTTP API and Web interface. `orchestrator` supports:
 
 #### Discovery
 
@@ -61,23 +59,23 @@ Read the [Orchestrator documentation](https://github.com/openark/orchestrator/tr
 
 Authored by [Shlomi Noach](https://github.com/shlomi-noach):
 
-- 2020- as https://github.com/openark/orchestrator
-- 2016-2020 at [GitHub](http://github.com) as https://github.com/github/orchestrator
-- 2015 at [Booking.com](http://booking.com) as https://github.com/outbrain/orchestrator
-- 2014 at [Outbrain](http://outbrain.com) as https://github.com/outbrain/orchestrator
+- 2020- as <https://github.com/openark/orchestrator>
+- 2016-2020 at [GitHub](http://github.com) as <https://github.com/github/orchestrator>
+- 2015 at [Booking.com](http://booking.com) as <https://github.com/outbrain/orchestrator>
+- 2014 at [Outbrain](http://outbrain.com) as <https://github.com/outbrain/orchestrator>
 
 #### Related projects
 
-- Orchestrator Puppet module: https://github.com/github/puppet-orchestrator-for-mysql
-- Orchestrator Chef Cookbook (1): https://github.com/silviabotros/chef-orchestrator
-- Orchestrator Chef Cookbook (2): https://supermarket.chef.io/cookbooks/orchestrator
-- Nagios / Icinga check based on Orchestrator API: https://github.com/mcrauwel/go-check-orchestrator
-- Light Python wrapper for Orchestrator API: https://github.com/stirlab/python-mysql-orchestrator
+- Orchestrator Puppet module: <https://github.com/github/puppet-orchestrator-for-mysql>
+- Orchestrator Chef Cookbook (1): <https://github.com/silviabotros/chef-orchestrator>
+- Orchestrator Chef Cookbook (2): <https://supermarket.chef.io/cookbooks/orchestrator>
+- Nagios / Icinga check based on Orchestrator API: <https://github.com/mcrauwel/go-check-orchestrator>
+- Light Python wrapper for Orchestrator API: <https://github.com/stirlab/python-mysql-orchestrator>
 
 #### Developers
 
 Get started developing Orchestrator by [reading the developer docs](/docs/developers.md). Thanks for your interest!
 
-#### License
+## License
 
-`orchestrator` is free and open sourced under the [Apache 2.0 license](LICENSE).
+Orchestrator is licensed under [GNU General Public License v3.0](LICENSE).
